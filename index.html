@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Online shop</title>
+</head>
+
+<body>
+    <header class="header">
+        <p>ONLINE-SHOP</p>
+    </header>
+    <div class="header-top-bar">
+        <p>СТИЛЬНИЙ ДЖЕМПЕР ВИШИВАНКА</p>
+    </div>
+
+    <div class="product-card">
+        <div class="product-card__img" data-aos="fade-right">
+            <div class="discount">
+                <b>-35% СКИДКА</b>
+
+            </div>
+        </div>
+
+        <div class="product-card__info" data-aos="fade-left">
+            <div class="product-card__pictures">
+                <div>
+                    <img src="img/product1.jpg" alt="">
+                    <p>ПРИХОВАЄ ОСОБЛИВОСТІ ФІГУРИ </p>
+                </div>
+                <div>
+                    <img src="img/product2.jpg" alt="">
+                    <p>ПРИЄМНА І КОМФОРТНА ТКАНИНА
+
+                    </p>
+                </div>
+                <div>
+                    <img src="img/product3.jpg" alt="">
+                    <p>ВИСОКА ЯКІСТЬ ПОШИВУ</p>
+                </div>
+            </div>
+            <div class="product-card__price">
+                <div class="product-card__price_old">
+                    <span>Звичайна ціна:</span>
+                    <p>1099грн</p>
+                </div>
+                <div class="product-card__price_new">
+                    <span>Ціна сьогодні:</span>
+                    <p>799грн</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="timer-container">
+        <p>
+            ПРОПОЗИЦІЯ ДІЄ:
+        </p>
+        <div class="timer">
+            <div class="timer-item">
+                <div class="timer-item__number">
+                    <div id="timerHour1" data-aos="flip-up">1</div>
+                    <div id="timerHour2" data-aos="flip-up">0</div>
+                </div>
+                <span>ГОДИН</span>
+            </div>
+            <div class="timer-item">
+                <div class="timer-item__number">
+                    <div id="timerMinute1" data-aos="flip-up">0</div>
+                    <div id="timerMinute2" data-aos="flip-up">0</div>
+                </div>
+                <span>ХВИЛИН</span>
+            </div>
+            <div class="timer-item">
+                <div class="timer-item__number">
+                    <div id="timerSecond1" data-aos="flip-up">0</div>
+                    <div id="timerSecond2" data-aos="flip-up">0</div>
+                </div>
+                <span>СЕКУНД</span>
+            </div>
+        </div>
+    </div>
+    <div class="main-btn__container">
+        <a class="main-btn" data-aos="fade-up" data-scroll href="#form">
+            Вибрати Джемпер
+        </a>
+        <p class="btn-subtitle">
+            Залишилося <span id="numOfOrders">36</span> одиниць по акції
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="title"><span>ОПИСАНИЕ</span>ИЗДЕЛИЯ</h2>
+        <p> Неймовірно стильний джемпер із оригінальним
+            принтом Вишиванка.
+            <br><br> Виготовлений із високоякісної дихаючої тканини. Тканина не викликає алекгічних реакцій.
+            <br><br> Тоненький в’язаний светрик з імітацією вишивки, дуже приємний до тіла, м‘який.
+        </p>
+        <ul class="description__list">
+            <li><b>Тканина:</b>30% шерсть +70% акрил (прання при 30 градусах)</li>
+            <li><b>Цвета:</b> Гірчиця, Беж, Синій, Чорний</li>
+            <li><b>Размеры:</b> 44-48; 52-60, 60-70</li>
+            <br>
+
+        </ul>
+    </div>
+    <div class="colors__container">
+        <h2 class="title">
+            <span>ВИБЕРІТЬ СВІЙ</span>
+            КОЛІР
+        </h2>
+        <p>Джемпер з різних ракурсів</p>
+        <div class="colors-items">
+            <div class="colors__item">
+                <div class="colors__gallery">
+                    <div class="colors__gallery-slide">
+                        <img src="img/yellow-gallery1.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/yellow-gallery2.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/yellow-gallery3.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/yellow-gallery4.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/yellow-gallery5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="colors__price">
+
+                    <h3>Гірчиця</h3>
+                    <div class="colors__price clearfix">
+                        <div class="cp-left"><span>-35%</span>
+                            <p>1099грн</p>
+                        </div>
+                        <div class="cp-right"><span>Ціна сьогодні:</span>
+                            <p>799грн</p>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="main-btn" data-aos="fade-up" data-aos="fade-up" data-scroll href="#form">
+                    Вибрати Джемпер
+                </a>
+            </div>
+            <div class="colors__item">
+                <div class="colors__gallery">
+                    <div class="colors__gallery-slide">
+                        <img src="img/red-gallery1.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/red-gallery2.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/red-gallery3.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/red-gallery4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="colors__price">
+
+                    <h3>Бордо</h3>
+                    <div class="colors__price clearfix">
+                        <div class="cp-left"><span>-35%</span>
+                            <p>1099грн</p>
+                        </div>
+                        <div class="cp-right"><span>Ціна сьогодні:</span>
+                            <p>799грн</p>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="main-btn" data-aos="fade-up" data-aos="fade-up" data-scroll href="#form">
+                    Вибрати Джемпер
+                </a>
+            </div>
+            <div class="colors__item">
+                <div class="colors__gallery">
+                    <div class="colors__gallery-slide">
+                        <img src="img/blue-gallery1.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/blue-gallery2.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/blue-gallery3.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="colors__price">
+
+                    <h3>Синій</h3>
+                    <div class="colors__price clearfix">
+                        <div class="cp-left"><span>-35%</span>
+                            <p>1099грн</p>
+                        </div>
+                        <div class="cp-right"><span>Ціна сьогодні:</span>
+                            <p>799грн</p>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="main-btn" data-aos="fade-up" data-aos="fade-up" data-scroll href="#form">
+                    Вибрати Джемпер
+                </a>
+            </div>
+            <div class="colors__item">
+                <div class="colors__gallery">
+                    <div class="colors__gallery-slide">
+                        <img src="img/black-gallery1.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/black-gallery2.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/black-gallery3.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/black-gallery4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="colors__price">
+
+                    <h3>Чорний</h3>
+                    <div class="colors__price clearfix">
+                        <div class="cp-left"><span>-35%</span>
+                            <p>1099грн</p>
+                        </div>
+                        <div class="cp-right"><span>Ціна сьогодні:</span>
+                            <p>799грн</p>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="main-btn" data-aos="fade-up" data-aos="fade-up" data-scroll href="#form">
+                    Вибрати Джемпер
+                </a>
+            </div>
+            <div class="colors__item">
+                <div class="colors__gallery">
+                    <div class="colors__gallery-slide">
+                        <img src="img/haki-gallery1.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/haki-gallery2.jpg" alt="">
+                    </div>
+                    <div class="colors__gallery-slide">
+                        <img src="img/haki-gallery3.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="colors__price">
+
+                    <h3>Хакі</h3>
+                    <div class="colors__price clearfix">
+                        <div class="cp-left"><span>-35%</span>
+                            <p>1099грн</p>
+                        </div>
+                        <div class="cp-right"><span>Ціна сьогодні:</span>
+                            <p>799грн</p>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="main-btn" data-aos="fade-up" data-aos="fade-up" data-scroll href="#form">
+                    Вибрати Джемпер
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews__container">
+        <h2 class="title"> <span>ВІДГУКИ</span> ПОКУПЦІВ</h2>
+        <div class="colors__gallery">
+            <div class="colors__gallery-slide">
+                <img src="img/green-gallery1.jpg" alt="">
+            </div>
+            <div class="colors__gallery-slide">
+                <img src="img/green-gallery2.jpg" alt="">
+            </div>
+            <div class="colors__gallery-slide">
+                <img src="img/green-gallery3.jpg" alt="">
+            </div>
+            <div class="colors__gallery-slide">
+                <img src="img/green-gallery4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="howto__container">
+        <h2 class="title"><span>ЯК ЗРОБИТИ</span> ЗАМОВЛЕННЯ?</h2>
+        <div class="howto">
+            <div class="howto-item__wrapper">
+                <div class="howto-item" id="howto-item1">
+                    <img src="img/howto-icon1.png" alt="">
+                    <h4>Заявка</h4>
+                    <p>Залишіть заявку внизу сайту</p>
+                </div>
+            </div>
+            <div class="howto-item__wrapper">
+                <div class="howto-item" id="howto-item2">
+                    <img src="img/howto-icon2.png" alt="">
+                    <h4>Дзвінок</h4>
+                    <p>Наш менеджер уточнить деталі замовлення</p>
+                </div>
+            </div>
+            <div class="howto-item__wrapper">
+                <div class="howto-item" id="howto-item3">
+                    <img src="img/howto-icon3.png" alt="">
+                    <h4>Отправка</h4>
+                    <p>Доставимо ваше замовлення Новою Поштою</p>
+                </div>
+            </div>
+            <div class="howto-item__wrapper">
+                <div class="howto-item" id="howto-item4">
+                    <img src="img/howto-icon4.png" alt="">
+                    <h4>ОТРИМАННЯ</h4>
+                    <p>Можлива післяплата 100грн</p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="delivery__container">
+        <ul class="delivery">
+            <li class="delivery__item" id="delivery__item1">
+                <h3>Швидка Доставка</h3>
+                <p>Доставляємо Новою Поштою по всій Україні від 2-3 днів із наявності на складі.
+                    Доставка та комісія з тарифів пошти!</p>
+            </li>
+            <li class="delivery__item" id="delivery__item2">
+                <h3>Безпечна оплата</h3>
+                <p>Можливий накладний платіж за передоплатою 100грн</p>
+            </li>
+            <li class="delivery__item" id="delivery__item3">
+                <h3>ГАРАНТІЇ</h3>
+                <p>Ми завжди перевіряємо товар перед відправкою та гарантуємо 100% якості. Повернення протягом 14 днів,
+                    за умови збереження етикетки, та товарного вигляду (з плямами або ношений одяг не приймається).
+                    Обмін розміру за умови оплати доставки покупцем.</p>
+            </li>
+            <li class="delivery__item" id="delivery__item4">
+                <h3>ПІДБЕРЕМО РОЗМІР</h3>
+                <p>Підберемо максимально точно за вашими індивідуальними параметрами потрібний розмір, використовуючи
+                    реальні виміри! </p>
+            </li>
+        </ul>
+    </div>
+    <header class="header">
+        <p>ONLINE-SHOP</p>
+    </header>
+    <div class="header-top-bar">
+        <p>СТИЛЬНИЙ ДЖЕМПЕР ВИШИВАНКА</p>
+    </div>
+
+    <div class="product-card">
+        <div class="product-card__img" data-aos="fade-right">
+            <div class="discount">
+                <b>-35% СКИДКА</b>
+
+            </div>
+        </div>
+
+        <div class="product-card__info" data-aos="fade-left">
+            <div class="product-card__pictures">
+                <div>
+                    <img src="img/product1.jpg" alt="">
+                    <p>ПРИХОВАЄ ОСОБЛИВОСТІ ФІГУРИ </p>
+                </div>
+                <div>
+                    <img src="img/product2.jpg" alt="">
+                    <p>ПРИЄМНА І КОМФОРТНА ТКАНИНА
+
+                    </p>
+                </div>
+                <div>
+                    <img src="img/product3.jpg" alt="">
+                    <p>ВИСОКА ЯКІСТЬ ПОШИВУ</p>
+                </div>
+            </div>
+            <div class="product-card__price">
+                <div class="product-card__price_old">
+                    <span>Звичайна ціна:</span>
+                    <p>1099грн</p>
+                </div>
+                <div class="product-card__price_new">
+                    <span>Ціна сьогодні:</span>
+                    <p>799грн</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="timer-container">
+        <p>
+            ПРОПОЗИЦІЯ ДІЄ:
+        </p>
+        <div class="timer">
+            <div class="timer-item">
+                <div class="timer-item__number">
+                    <div id="timerHour1" data-aos="flip-up">1</div>
+                    <div id="timerHour2" data-aos="flip-up">0</div>
+                </div>
+                <span>ГОДИН</span>
+            </div>
+            <div class="timer-item">
+                <div class="timer-item__number">
+                    <div id="timerMinute1" data-aos="flip-up">0</div>
+                    <div id="timerMinute2" data-aos="flip-up">0</div>
+                </div>
+                <span>ХВИЛИН</span>
+            </div>
+            <div class="timer-item">
+                <div class="timer-item__number">
+                    <div id="timerSecond1" data-aos="flip-up">0</div>
+                    <div id="timerSecond2" data-aos="flip-up">0</div>
+                </div>
+                <span>СЕКУНД</span>
+            </div>
+        </div>
+    </div>
+    <div class="form__container" id="form">
+        <p>ДЛЯ ЗАМОВЛЕННЯ І КОНСУЛЬТАЦІЇ <br>
+            ЗАПОЛНІТЬ ФОРМУ ПРЯМО ЗАРАЗ:</p>
+        <form class="form" action="send.php" method="post">
+            <select class="field" name="color" id="form-color" required>
+                <option value="" selected disabled>Виберіть колір</option>
+                <option value="black">Чорний</option>
+                <option value="girchyca">Гірчиця</option>
+                <option value="bordo">Бордо</option>
+                <option value="blue">Синій</option>
+                <option value="haki">Хакі</option>
+            </select>
+            <select class="field" name="color" id="form-size" required>
+                <option value="" selected disabled>Виберіть розмір</option>
+                <option value="44-48">РОЗМІР 44-48</option>
+                <option value="52-60">РОЗМІР 52-60</option>
+                <option value="60-70">РОЗМІР 60-70</option>
+
+            </select>
+            <input class="field" type="text" name="name" placeholder="Ваше ПІБ" id="form__name" required>
+            <input class="field" type="text" name="phone" placeholder="Ваш телефон" id="form__phone" required>
+            <button class="main-btn" data-aos="fade-up" type="submit">
+                Вибрати Джемпер
+            </button>
+            <p class="btn-subtitle">
+                Залишилося <span id="numOfOrders">36</span> одиниць по акції
+            </p>
+        </form>
+    </div>
+    <footer class="footer">
+        <ul>
+            <li><a href="privacy-policy.html">Політика конфіденційності</a></li>
+            <li><a href="cookie.html">Файли cookie</a></li>
+            <li><a href="public-offer.html">Публічна оферта</a></li>
+            <li><a href="delivery-terms.html">Оплата та доставка</a></li>
+        </ul>
+    </footer>
+    <div class="footer-shadow"></div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+    <script src="js/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
